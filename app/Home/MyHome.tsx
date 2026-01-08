@@ -14,7 +14,7 @@ export default function HomePage() {
       setError("");
 
       const res = await fetch(
-        "https://brain-stomer-cc50.onrender.com/api/recommend",
+        "https://brain-stomer-lv5q.onrender.com/api/recommend",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
